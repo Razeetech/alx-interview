@@ -1,4 +1,4 @@
-#Prime Game
+<h1>Prime Game</h1>
 
 Maria and Ben are playing a game. Given a set of consecutive integers starting from 1 up to and including n, they take turns choosing a prime number from the set and removing that number and its multiples from the set. The player that cannot make a move loses the game.
 
@@ -15,7 +15,7 @@ They play x rounds of the game, where n may be different for each round. Assumin
 Example:
 
 <code>x = 3, nums = [4, 5, 1]</code>
-##<b>First round: 4
+<h2><b>First round: 4</b></h2>
 
 <ul>
 <li>Maria picks 2 and removes 2, 4, leaving 1, 3</li>
@@ -23,7 +23,7 @@ Example:
 <li>Ben wins because there are no prime numbers left for Maria to choose</li>
 </ul>
 
-##<b>Second round: 5</b>
+<h2><b>Second round: 5</b></h2>
 
 <ul>
 <li>Maria picks 2 and removes 2, 4, leaving 1, 3, 5</li>
@@ -32,7 +32,7 @@ Example:
 <li>Maria wins because there are no prime numbers left for Ben to choose</li>
 </ul>
 
-##<b>Third round: 1</b>
+<h2><b>Third round: 1</b></h2>
 
 Ben wins because there are no prime numbers for Maria to choose
 <b>Result: Ben has the most wins
